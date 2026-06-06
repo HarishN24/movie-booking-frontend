@@ -1,16 +1,98 @@
-# React + Vite
+# 🎬 Movie Ticket Booking System – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React.js application that allows users to browse movies, select seats, book tickets, and manage booking history through an intuitive user interface.
 
-Currently, two official plugins are available:
+## 🌐 Live Application
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://movie-booking-frontend-one.vercel.app
 
-## React Compiler
+## 📌 Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The frontend communicates with a Spring Boot REST API secured using JWT Authentication.
 
-## Expanding the ESLint configuration
+Users can:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Register and Login
+* Browse Movies
+* Select Seats
+* Book Tickets
+* View Booking History
+* Access Protected Pages
+
+The application is deployed on Vercel and integrated with a Railway-hosted backend.
+
+## 🏗️ Frontend Architecture
+
+React.js
+
+↓
+
+Axios API Calls
+
+↓
+
+Spring Boot REST APIs
+
+↓
+
+Railway Cloud Backend
+
+## 🛠️ Technologies Used
+
+* React.js
+* Vite
+* JavaScript
+* Axios
+* React Router DOM
+* Bootstrap
+* JWT Authentication
+* Vercel
+
+## ✨ Features
+
+### Authentication
+
+* User Registration
+* User Login
+* JWT Token Storage
+* Protected Routes
+
+### Movie Booking
+
+* Movie Listing
+* Seat Selection Interface
+* Booking Confirmation
+* Booking History
+
+### User Experience
+
+* Responsive Design
+* Dynamic Navigation
+* API Integration
+* Error Handling
+
+## 🚀 Deployment
+
+Frontend: Vercel
+
+Backend: Railway
+
+Database: Railway MySQL
+
+## 🎯 Highlights
+
+* Full-Stack Application
+* JWT Authentication
+* Cloud Deployment
+* REST API Integration
+* Real-Time Seat Validation
+* Production Environment Configuration
+
+## 👨‍💻 Developer
+
+Harish Neelapala
+
+Java Full Stack Developer
+
+Skills:
+Java | Spring Boot | React.js | MySQL | JWT | REST APIs | Git | GitHub | Vercel | Railway
